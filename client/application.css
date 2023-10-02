@@ -1,0 +1,47 @@
+body {
+    background-color: gray;
+    margin: 0;
+  }
+  
+  #app {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+  }
+  
+  main {
+    position: absolute;
+    top:130;
+    background-color: aliceblue;
+    min-width: 100%;
+    margin-inline: auto;
+    margin-block: 1em;
+    border-radius: 1em;
+  }
+  nav{
+    background-color: blue;
+  }
+  
+  header,
+  nav,
+  footer {
+    color: aliceblue;
+  }
+
+  header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color:rebeccapurple;
+
+  }
+
+  footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rebeccapurple;
+  }
+  nav a {
+    color: aliceblue;
+  }
